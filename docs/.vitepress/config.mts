@@ -5,10 +5,20 @@ export default defineConfig({
   title: "Resnshi Asada",
   description: "",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local'
+    }, 
+    
+    lastUpdated: {
+      text: '最終更新日',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
+    },
+
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Home', link: '/' }
     ],
 
     sidebar: [
