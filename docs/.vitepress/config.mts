@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  base: '/docs/',
+  base: '/',
   title: "Resnshi Asada",
   description: "",
   themeConfig: {
@@ -24,6 +24,7 @@ export default defineConfig({
     sidebar: [
       {
         items: [
+          { text: 'Home', link: '/' },
           { text: 'Blog', link: '/blog' },
           { text: 'Egg Tempera', link: '/eggtempera' },
           { text: 'Charcoal', link: '/charcoal' },
