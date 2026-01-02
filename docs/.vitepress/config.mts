@@ -24,20 +24,10 @@ export default defineConfig({
     sidebar: [
       {
         items: [
-          { text: 'Blog Post', link: '/blog' }
-        ]
-      },
-      {
-        text: `Art`,
-        items: [
+          { text: 'Blog Post', link: '/blog' },
           { text: 'Egg Tempera', link: '/eggtempera' },
-          { text: 'Charcoal', link: '/charcoal' }
-        ]
-      },
-      {
-        text: `Other`,
-        items: [
-          { text: 'Enginnering', link: '/enginnering' }
+          { text: 'Charcoal', link: '/charcoal' },
+          { text: 'Other', link: '/other' }
         ]
       }
     ],
