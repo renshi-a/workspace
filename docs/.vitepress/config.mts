@@ -13,10 +13,21 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Blog Post', link: '/blog' }
+        ]
+      },
+      {
+        text: `Art`,
+        items: [
+          { text: 'Egg Tempera', link: '/eggtempera' },
+          { text: 'Charcoal', link: '/charcoal' }
+        ]
+      },
+      {
+        text: `Other`,
+        items: [
+          { text: 'Enginnering', link: '/enginnering' }
         ]
       }
     ],
