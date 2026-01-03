@@ -34,7 +34,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'instagram', link: 'https://www.instagram.com/renshi.asada/' },
+      { icon: 'twitter', link: 'https://x.com/renshiasada' }
     ]
   }
 })
